@@ -1,5 +1,7 @@
 import pytest
 import os
+import sys
+sys.path.append("..")
 import allure
 from api.user import user
 from common.mysql_operate import db
