@@ -1,5 +1,6 @@
 import pytest
 import os
+import six
 import allure
 from api.user import user
 from common.mysql_operate import db
