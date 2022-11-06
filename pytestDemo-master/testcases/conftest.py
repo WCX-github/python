@@ -1,6 +1,7 @@
 import pytest
 import os
-import six
+import sys
+sys.path.append("F:/jenkins_env/pytest_env/Lib/site-packages")
 import allure
 from api.user import user
 from common.mysql_operate import db
